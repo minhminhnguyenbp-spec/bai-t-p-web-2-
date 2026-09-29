@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Giới thiệu PhoneZone, mục tiêu, cam kết và thiết kế responsive.">
+  <title>Giới thiệu - PhoneZone</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="container topbar-content">
+    <p>📍 Giao đến: TP. Hồ Chí Minh</p>
+    <p>☎ 0976 254 539 &nbsp;•&nbsp; Hỗ trợ 08:00 - 21:00</p>
+  </div>
+</div>
+<header class="header">
+  <div class="container header-main">
+    <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo PhoneZone"><span>PhoneZone</span></a>
+    <form class="search-box marketplace-search" action="products.html" method="get">
+      <label class="sr-only" for="search-category-about">Danh mục</label>
+      <select id="search-category-about" name="category" aria-label="Chọn danh mục">
+        <option value="">Tất cả</option>
+        <option value="dien-thoai">Điện thoại</option>
+        <option value="phu-kien">Phụ kiện</option>
+      </select>
+      <label class="sr-only" for="search-about">Tìm kiếm</label>
+      <input id="search-about" name="q" type="search" placeholder="Tìm iPhone, Samsung, Xiaomi...">
+      <button type="submit" aria-label="Tìm kiếm">🔎</button>
+    </form>
+    <div class="header-actions header-tools">
+      <a href="account.html"><small>Xin chào</small><strong>👤 Tài khoản</strong></a>
+      <a href="orders.html"><small>Theo dõi</small><strong>📦 Đơn hàng</strong></a>
+      <a href="cart.html" class="cart-link"><small>Mua sắm</small><strong>🛒 Giỏ hàng</strong></a>
+    </div>
+  </div>
+  <nav class="navbar" aria-label="Điều hướng chính">
+    <div class="container nav-list"><a href="index.html" class="">Trang chủ</a><a href="products.html" class="">Sản phẩm</a><a href="categories.html" class="">Danh mục</a><a href="promotions.html" class="">Khuyến mãi</a><a href="blog.html" class="">Tin tức</a><a href="about.html" class="active">Giới thiệu</a><a href="contact.html" class="">Liên hệ</a><a href="products.html#deals">Deal hôm nay</a></div>
+  </nav>
+</header>
+<main>
+<section class="page-banner"><div class="container"><p class="breadcrumbs"><a href="index.html">Trang chủ</a> / Giới thiệu</p><h1>Giới thiệu PhoneZone</h1><p>Tìm hiểu về website và mục tiêu của dự án.</p></div></section>
+<section class="section"><div class="container about-stack">
+  <article class="about-box"><h2>PhoneZone là ai?</h2><p>PhoneZone là website thương mại điện tử mô phỏng chuyên về điện thoại thông minh và thiết bị công nghệ. Website tổ chức sản phẩm theo danh mục, thương hiệu, mức giá và khu vực ưu đãi để người dùng dễ tham khảo.</p><p>Giao diện sử dụng Header, Navigation, Banner/Hero, Grid, Card, Button, Footer và các trang hỗ trợ như tài khoản, giỏ hàng, đơn hàng.</p><p>Toàn bộ dự án ưu tiên Semantic HTML5, CSS Grid, Flexbox và Media Queries để đáp ứng Desktop, Tablet và Mobile.</p></article>
+  <article class="about-box"><h2>Mục tiêu của PhoneZone</h2><p>Tạo trải nghiệm duyệt sản phẩm rõ ràng, trực quan và liên kết tốt giữa trang chủ, danh mục, sản phẩm, chi tiết, khuyến mãi, tin tức, tài khoản, giỏ hàng, đơn hàng và liên hệ.</p><p>Website sử dụng đường dẫn tương đối và có thể triển khai trực tiếp lên GitHub Pages.</p></article>
+  <article class="about-box"><h2>Cam kết</h2><p>PhoneZone ghi nguồn đối với nội dung/hình ảnh tham khảo từ bên ngoài. Ảnh sản phẩm trong project được lưu cục bộ để hạn chế lỗi khi triển khai.</p><p>Các thao tác tìm kiếm, lọc, đăng nhập, giỏ hàng và đặt hàng chỉ mô phỏng giao diện vì bài tập chỉ sử dụng HTML5/CSS3, không có backend.</p></article>
+  <article class="about-box"><h2>Responsive</h2><p>Desktop hiển thị nhiều cột; Tablet tự giảm cột; Mobile chuyển về bố cục gọn, menu phù hợp màn hình nhỏ, ảnh dùng <code>object-fit</code> để không bị méo hoặc tràn.</p></article>
+</div></section>
+</main>
+<footer class="footer">
+  <div class="container footer-grid footer-grid-4">
+    <div class="footer-column">
+      <h3>PhoneZone</h3>
+      <p>Website thương mại điện tử điện thoại phục vụ mục đích học tập HTML5/CSS3.</p>
+      <p>📍 TP. Hồ Chí Minh</p>
+      <p>✉ phonezone@gmail.com</p>
+    </div>
+    <div class="footer-column">
+      <h3>Mua sắm</h3>
+      <a href="products.html">Sản phẩm</a>
+      <a href="categories.html">Danh mục</a>
+      <a href="promotions.html">Khuyến mãi</a>
+      <a href="cart.html">Giỏ hàng</a>
+    </div>
+    <div class="footer-column">
+      <h3>Tài khoản</h3>
+      <a href="account.html">Đăng nhập / đăng ký</a>
+      <a href="orders.html">Theo dõi đơn hàng</a>
+      <a href="contact.html">Trung tâm hỗ trợ</a>
+    </div>
+    <div class="footer-column">
+      <h3>Nguồn tham khảo</h3>
+      <a href="https://www.apple.com/vn/" target="_blank" rel="noopener noreferrer">Apple</a>
+      <a href="https://www.samsung.com/vn/" target="_blank" rel="noopener noreferrer">Samsung</a>
+      <a href="https://www.mi.com/vn/" target="_blank" rel="noopener noreferrer">Xiaomi</a>
+      <a href="https://www.oppo.com/vn/" target="_blank" rel="noopener noreferrer">OPPO</a>
+    </div>
+  </div>
+  <div class="copyright">© 2026 PhoneZone • Bài tập website tĩnh HTML5 &amp; CSS3</div>
+</footer>
+</body>
+</html>

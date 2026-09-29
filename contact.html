@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Liên hệ và trung tâm hỗ trợ khách hàng PhoneZone.">
+  <title>Liên hệ - PhoneZone</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="container topbar-content">
+    <p>📍 Giao đến: TP. Hồ Chí Minh</p>
+    <p>☎ 0976 254 539 &nbsp;•&nbsp; Hỗ trợ 08:00 - 21:00</p>
+  </div>
+</div>
+<header class="header">
+  <div class="container header-main">
+    <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo PhoneZone"><span>PhoneZone</span></a>
+    <form class="search-box marketplace-search" action="products.html" method="get">
+      <label class="sr-only" for="search-category-contact">Danh mục</label>
+      <select id="search-category-contact" name="category" aria-label="Chọn danh mục">
+        <option value="">Tất cả</option>
+        <option value="dien-thoai">Điện thoại</option>
+        <option value="phu-kien">Phụ kiện</option>
+      </select>
+      <label class="sr-only" for="search-contact">Tìm kiếm</label>
+      <input id="search-contact" name="q" type="search" placeholder="Tìm iPhone, Samsung, Xiaomi...">
+      <button type="submit" aria-label="Tìm kiếm">🔎</button>
+    </form>
+    <div class="header-actions header-tools">
+      <a href="account.html"><small>Xin chào</small><strong>👤 Tài khoản</strong></a>
+      <a href="orders.html"><small>Theo dõi</small><strong>📦 Đơn hàng</strong></a>
+      <a href="cart.html" class="cart-link"><small>Mua sắm</small><strong>🛒 Giỏ hàng</strong></a>
+    </div>
+  </div>
+  <nav class="navbar" aria-label="Điều hướng chính">
+    <div class="container nav-list"><a href="index.html" class="">Trang chủ</a><a href="products.html" class="">Sản phẩm</a><a href="categories.html" class="">Danh mục</a><a href="promotions.html" class="">Khuyến mãi</a><a href="blog.html" class="">Tin tức</a><a href="about.html" class="">Giới thiệu</a><a href="contact.html" class="active">Liên hệ</a><a href="products.html#deals">Deal hôm nay</a></div>
+  </nav>
+</header>
+<main>
+<section class="page-banner"><div class="container"><p class="breadcrumbs"><a href="index.html">Trang chủ</a> / Liên hệ</p><h1>Trung tâm hỗ trợ</h1><p>Liên hệ tư vấn mua hàng, bảo hành hoặc hỗ trợ đơn hàng.</p></div></section>
+<section class="section"><div class="container help-grid">
+  <article><span>📦</span><h3>Đơn hàng</h3><p>Kiểm tra tiến trình đơn hàng mô phỏng.</p><a href="orders.html">Theo dõi đơn →</a></article>
+  <article><span>↩️</span><h3>Đổi trả</h3><p>Tìm hiểu quy trình đổi trả và bảo hành.</p><a href="about.html">Xem chính sách →</a></article>
+  <article><span>☎</span><h3>Hotline</h3><p>0976 254 539 • 08:00 - 21:00</p><a href="#form">Gửi yêu cầu →</a></article>
+</div></section>
+<section class="section section-soft" id="form"><div class="container contact-layout">
+  <div class="contact-info"><h2>Thông tin liên hệ</h2><p><strong>Hotline:</strong><br>0976 254 539</p><p><strong>Email:</strong><br>phonezone@gmail.com</p><p><strong>Thời gian hỗ trợ:</strong><br>08:00 - 21:00 mỗi ngày</p><p><strong>Khu vực:</strong><br>TP. Hồ Chí Minh</p><p class="demo-note">Biểu mẫu là giao diện mô phỏng trong website tĩnh.</p></div>
+  <form class="contact-form" action="#"><h2>Gửi yêu cầu</h2>
+    <div class="form-group"><label for="name">Họ và tên</label><input type="text" id="name" placeholder="Nhập họ và tên" required></div>
+    <div class="form-group"><label for="email">Email</label><input type="email" id="email" placeholder="Nhập email" required></div>
+    <div class="form-group"><label for="phone">Số điện thoại</label><input type="tel" id="phone" placeholder="Nhập số điện thoại"></div>
+    <div class="form-group"><label for="topic">Chủ đề</label><select id="topic"><option>Tư vấn sản phẩm</option><option>Đơn hàng</option><option>Bảo hành</option><option>Khác</option></select></div>
+    <div class="form-group"><label for="message">Nội dung</label><textarea id="message" rows="6" placeholder="Nhập nội dung cần hỗ trợ"></textarea></div>
+    <button type="submit" class="btn">Gửi liên hệ</button>
+  </form>
+</div></section>
+</main>
+<footer class="footer">
+  <div class="container footer-grid footer-grid-4">
+    <div class="footer-column">
+      <h3>PhoneZone</h3>
+      <p>Website thương mại điện tử điện thoại phục vụ mục đích học tập HTML5/CSS3.</p>
+      <p>📍 TP. Hồ Chí Minh</p>
+      <p>✉ phonezone@gmail.com</p>
+    </div>
+    <div class="footer-column">
+      <h3>Mua sắm</h3>
+      <a href="products.html">Sản phẩm</a>
+      <a href="categories.html">Danh mục</a>
+      <a href="promotions.html">Khuyến mãi</a>
+      <a href="cart.html">Giỏ hàng</a>
+    </div>
+    <div class="footer-column">
+      <h3>Tài khoản</h3>
+      <a href="account.html">Đăng nhập / đăng ký</a>
+      <a href="orders.html">Theo dõi đơn hàng</a>
+      <a href="contact.html">Trung tâm hỗ trợ</a>
+    </div>
+    <div class="footer-column">
+      <h3>Nguồn tham khảo</h3>
+      <a href="https://www.apple.com/vn/" target="_blank" rel="noopener noreferrer">Apple</a>
+      <a href="https://www.samsung.com/vn/" target="_blank" rel="noopener noreferrer">Samsung</a>
+      <a href="https://www.mi.com/vn/" target="_blank" rel="noopener noreferrer">Xiaomi</a>
+      <a href="https://www.oppo.com/vn/" target="_blank" rel="noopener noreferrer">OPPO</a>
+    </div>
+  </div>
+  <div class="copyright">© 2026 PhoneZone • Bài tập website tĩnh HTML5 &amp; CSS3</div>
+</footer>
+</body>
+</html>

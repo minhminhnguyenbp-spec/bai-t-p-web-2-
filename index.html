@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PhoneZone - website thương mại điện tử điện thoại tĩnh HTML5/CSS3 responsive.">
+  <title>PhoneZone - Trang chủ</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="container topbar-content">
+    <p>📍 Giao đến: TP. Hồ Chí Minh</p>
+    <p>☎ 0976 254 539 &nbsp;•&nbsp; Hỗ trợ 08:00 - 21:00</p>
+  </div>
+</div>
+<header class="header">
+  <div class="container header-main">
+    <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo PhoneZone"><span>PhoneZone</span></a>
+    <form class="search-box marketplace-search" action="products.html" method="get">
+      <label class="sr-only" for="search-category-index">Danh mục</label>
+      <select id="search-category-index" name="category" aria-label="Chọn danh mục">
+        <option value="">Tất cả</option>
+        <option value="dien-thoai">Điện thoại</option>
+        <option value="phu-kien">Phụ kiện</option>
+      </select>
+      <label class="sr-only" for="search-index">Tìm kiếm</label>
+      <input id="search-index" name="q" type="search" placeholder="Tìm iPhone, Samsung, Xiaomi...">
+      <button type="submit" aria-label="Tìm kiếm">🔎</button>
+    </form>
+    <div class="header-actions header-tools">
+      <a href="account.html"><small>Xin chào</small><strong>👤 Tài khoản</strong></a>
+      <a href="orders.html"><small>Theo dõi</small><strong>📦 Đơn hàng</strong></a>
+      <a href="cart.html" class="cart-link"><small>Mua sắm</small><strong>🛒 Giỏ hàng</strong></a>
+    </div>
+  </div>
+  <nav class="navbar" aria-label="Điều hướng chính">
+    <div class="container nav-list"><a href="index.html" class="active">Trang chủ</a><a href="products.html" class="">Sản phẩm</a><a href="categories.html" class="">Danh mục</a><a href="promotions.html" class="">Khuyến mãi</a><a href="blog.html" class="">Tin tức</a><a href="about.html" class="">Giới thiệu</a><a href="contact.html" class="">Liên hệ</a><a href="products.html#deals">Deal hôm nay</a></div>
+  </nav>
+</header>
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-content">
+      <span>⚡ Deal công nghệ mỗi ngày</span>
+      <h1>Điện thoại chính hãng<br>Giá tốt mỗi ngày</h1>
+      <p>Tìm kiếm, xem giá, so sánh lựa chọn, đọc thông tin sản phẩm và đi đến giỏ hàng trong một giao diện thống nhất.</p>
+      <div class="hero-actions"><a class="btn" href="products.html">Xem sản phẩm</a><a class="btn btn-light" href="promotions.html">Săn khuyến mãi</a></div>
+    </div>
+    <div class="hero-image"><img src="images/banner.png" alt="Banner điện thoại PhoneZone" class="banner-img"></div>
+  </div>
+</section>
+
+<section class="trust-strip">
+  <div class="container trust-grid">
+    <div>🚚 <strong>Giao hàng nhanh</strong><span>Thông tin giao nhận rõ ràng</span></div>
+    <div>🛡️ <strong>Bảo hành</strong><span>Chính sách minh bạch</span></div>
+    <div>💳 <strong>Thanh toán linh hoạt</strong><span>Luồng mua hàng mô phỏng</span></div>
+    <div>↩️ <strong>Đổi trả</strong><span>Quy trình hỗ trợ rõ ràng</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><div><p class="kicker">MUA NHANH THEO NHU CẦU</p><h2 class="section-title">Danh mục nổi bật</h2></div><a class="view-all" href="categories.html">Xem tất cả →</a></div>
+    <div class="category-grid">
+      <a class="category-card" href="products.html#iphone16pro"><div class="category-icon">🍎</div><h3>Apple</h3><p>iPhone cao cấp</p></a>
+      <a class="category-card" href="products.html#s25ultra"><div class="category-icon">📱</div><h3>Samsung</h3><p>Galaxy nổi bật</p></a>
+      <a class="category-card" href="products.html#android"><div class="category-icon">🤖</div><h3>Android</h3><p>Nhiều mức giá</p></a>
+      <a class="category-card" href="products.html#deals"><div class="category-icon">🏷️</div><h3>Giá tốt</h3><p>Sản phẩm ưu đãi</p></a>
+      <a class="category-card" href="promotions.html"><div class="category-icon">🎁</div><h3>Khuyến mãi</h3><p>Deal mỗi ngày</p></a>
+      <a class="category-card" href="blog.html"><div class="category-icon">📰</div><h3>Tư vấn</h3><p>Mẹo công nghệ</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft" id="deals">
+  <div class="container">
+    <div class="section-head"><div><p class="kicker">ĐỀ XUẤT CHO BẠN</p><h2 class="section-title">Sản phẩm nổi bật</h2></div><a class="view-all" href="products.html">Xem toàn bộ →</a></div>
+    <div class="featured-grid"><article class="market-card" id="iphone16pro">
+  <div class="card-media">
+    <span class="deal-badge">-10%</span>
+    <a href="details.html#iphone16pro"><img src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png" alt="iPhone 16 Pro Max" loading="lazy"></a>
+  </div>
+  <div class="card-body">
+    <p class="brand-label">Apple</p>
+    <h3><a href="details.html#iphone16pro">iPhone 16 Pro Max</a></h3>
+    <div class="rating" aria-label="Đánh giá minh họa">★★★★☆ <span>Đánh giá sản phẩm</span></div>
+    <p><span class="price">29.990.000đ</span> <span class="old-price">32.990.000đ</span></p>
+    <p class="shipping">✓ Giao nhanh • Đổi trả theo chính sách cửa hàng</p>
+    <div class="card-actions">
+      <a class="btn btn-secondary" href="details.html#iphone16pro">Xem chi tiết</a>
+      <a class="btn" href="cart.html">Thêm vào giỏ</a>
+    </div>
+  </div>
+</article>
+<article class="market-card" id="s25ultra">
+  <div class="card-media">
+    <span class="deal-badge">-15%</span>
+    <a href="details.html#s25ultra"><img src="https://images.samsung.com/vn/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-kv.jpg?imbypass=true" alt="Samsung Galaxy S25 Ultra" loading="lazy"></a>
+  </div>
+  <div class="card-body">
+    <p class="brand-label">Samsung</p>
+    <h3><a href="details.html#s25ultra">Samsung Galaxy S25 Ultra</a></h3>
+    <div class="rating" aria-label="Đánh giá minh họa">★★★★☆ <span>Đánh giá sản phẩm</span></div>
+    <p><span class="price">27.990.000đ</span> <span class="old-price">32.990.000đ</span></p>
+    <p class="shipping">✓ Giao nhanh • Đổi trả theo chính sách cửa hàng</p>
+    <div class="card-actions">
+      <a class="btn btn-secondary" href="details.html#s25ultra">Xem chi tiết</a>
+      <a class="btn" href="cart.html">Thêm vào giỏ</a>
+    </div>
+  </div>
+</article>
+<article class="market-card" id="xiaomi15">
+  <div class="card-media">
+    <span class="deal-badge">HOT</span>
+    <a href="details.html#xiaomi15"><img src="https://i02.appmifile.com/mi-com-product/fly-birds/xiaomi-15/pc/2fb551f068f8de5461069dab5cf84556.jpg?f=webp" alt="Xiaomi 15" loading="lazy"></a>
+  </div>
+  <div class="card-body">
+    <p class="brand-label">Xiaomi</p>
+    <h3><a href="details.html#xiaomi15">Xiaomi 15</a></h3>
+    <div class="rating" aria-label="Đánh giá minh họa">★★★★☆ <span>Đánh giá sản phẩm</span></div>
+    <p><span class="price">18.990.000đ</span> <span class="old-price">20.990.000đ</span></p>
+    <p class="shipping">✓ Giao nhanh • Đổi trả theo chính sách cửa hàng</p>
+    <div class="card-actions">
+      <a class="btn btn-secondary" href="details.html#xiaomi15">Xem chi tiết</a>
+      <a class="btn" href="cart.html">Thêm vào giỏ</a>
+    </div>
+  </div>
+</article>
+<article class="market-card" id="oppo">
+  <div class="card-media">
+    <span class="deal-badge">SALE</span>
+    <a href="details.html#oppo"><img src="https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x8-series-en/find-x8-pro/products/932-720.png" alt="OPPO Find X8 Pro" loading="lazy"></a>
+  </div>
+  <div class="card-body">
+    <p class="brand-label">OPPO</p>
+    <h3><a href="details.html#oppo">OPPO Find X8 Pro</a></h3>
+    <div class="rating" aria-label="Đánh giá minh họa">★★★★☆ <span>Đánh giá sản phẩm</span></div>
+    <p><span class="price">19.990.000đ</span> <span class="old-price">22.990.000đ</span></p>
+    <p class="shipping">✓ Giao nhanh • Đổi trả theo chính sách cửa hàng</p>
+    <div class="card-actions">
+      <a class="btn btn-secondary" href="details.html#oppo">Xem chi tiết</a>
+      <a class="btn" href="cart.html">Thêm vào giỏ</a>
+    </div>
+  </div>
+</article></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container content-banner">
+    <div>
+      <p class="kicker">MUA SẮM THÔNG MINH</p>
+      <h2>So sánh trước khi mua</h2>
+      <p>Dùng bộ lọc thương hiệu, mức giá và khu vực sắp xếp trên trang sản phẩm để thu hẹp lựa chọn.</p>
+      <a class="btn" href="products.html">Bắt đầu lọc sản phẩm</a>
+    </div>
+    <div class="content-banner-stats">
+      <div><strong>8+</strong><span>Mẫu minh họa</span></div>
+      <div><strong>7</strong><span>Thương hiệu</span></div>
+      <div><strong>100%</strong><span>Responsive</span></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="container footer-grid footer-grid-4">
+    <div class="footer-column">
+      <h3>PhoneZone</h3>
+      <p>Website thương mại điện tử điện thoại phục vụ mục đích học tập HTML5/CSS3.</p>
+      <p>📍 TP. Hồ Chí Minh</p>
+      <p>✉ phonezone@gmail.com</p>
+    </div>
+    <div class="footer-column">
+      <h3>Mua sắm</h3>
+      <a href="products.html">Sản phẩm</a>
+      <a href="categories.html">Danh mục</a>
+      <a href="promotions.html">Khuyến mãi</a>
+      <a href="cart.html">Giỏ hàng</a>
+    </div>
+    <div class="footer-column">
+      <h3>Tài khoản</h3>
+      <a href="account.html">Đăng nhập / đăng ký</a>
+      <a href="orders.html">Theo dõi đơn hàng</a>
+      <a href="contact.html">Trung tâm hỗ trợ</a>
+    </div>
+    <div class="footer-column">
+      <h3>Nguồn tham khảo</h3>
+      <a href="https://www.apple.com/vn/" target="_blank" rel="noopener noreferrer">Apple</a>
+      <a href="https://www.samsung.com/vn/" target="_blank" rel="noopener noreferrer">Samsung</a>
+      <a href="https://www.mi.com/vn/" target="_blank" rel="noopener noreferrer">Xiaomi</a>
+      <a href="https://www.oppo.com/vn/" target="_blank" rel="noopener noreferrer">OPPO</a>
+    </div>
+  </div>
+  <div class="copyright">© 2026 PhoneZone • Bài tập website tĩnh HTML5 &amp; CSS3</div>
+</footer>
+</body>
+</html>
